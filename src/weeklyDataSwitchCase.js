@@ -1,19 +1,20 @@
 
-let i = 1
-switch (i){
-    case 1:
-        day = "Monday"; break
-    case 2:
-        day = "Tuesday"; break
-    case 3:
-        day = "Wednesday"; break
-    case 4:
-        day = "Thursday"; break
-    case 5:
-        day = "Friday"; break
-    case 6:
-        day = "Saturday"; break
-    case 7:
-        day = "Sunday"; break
-}
-console.log(day); //Monday
+function GetDaySwitch(day){
+    switch (day) {
+        case 1:
+            return "Monday"; break;
+        case 2:
+            return "Tuesday"; break;
+        case 3:
+            return "Wednesday"; break;
+        case 4:
+            return "Thursday"; break;
+        case 5:
+            return "Friday"; break;
+        case 6:
+            return "Saturday"; break;
+        case 7:
+            return "Sunday"; break;
+        }
+    }
+console.log(GetDaySwitch(3)); //Monday
